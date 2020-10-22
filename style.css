@@ -1,0 +1,210 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #595959;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #f5f7fa;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 1;
+	width: 1200px;
+	box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+	background-color: #ffffff;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sidebar-container {
+	background-color: #293957;
+	width: 370px;
+	padding-top: 40px;
+}
+
+.sidebar-container > img {
+	width: 370px;     
+}
+
+.contacts-container,
+.tech-skills-container,
+.soft-skills-container {
+	margin-left: 40px;
+	margin-bottom: 50px;
+}
+
+.sidebar-title {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+
+.sidebar-cell,
+.sidebar-email {
+	font-weight: 700;
+	letter-spacing: 0.42px;
+	color: #ffffff;
+}
+
+.sidebar-cell > a,
+.sidebar-email > a {
+	opacity: 0.5;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.tech-skills-list,
+.soft-skills-list,
+.companies-list {
+	padding-left: 20px;
+}
+
+.tech-skills-list > li,
+.soft-skills-list > li {
+	color: #ff6b08;
+}
+
+.tech-skills-item,
+.soft-skills-item {
+	color: #ffffff;
+	letter-spacing: 0.42px;
+}
+
+.about-me-container {
+	width: 831px;
+	background-color: #ffffff;
+	margin-left: 90px;
+}
+
+.main-info-container {
+
+}
+
+.main-info-container > h2 {
+	margin-top: 108px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #000000;
+}
+
+.main-info-container > h1 {
+	color: #000000;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 89px;
+	margin: 0;
+}
+
+.main-info-container > p {
+	width: 413px;
+	margin: 0;
+}
+
+.projects-container {
+
+}
+
+.projects-container > h3,
+.work-container > h3,
+.education-container > h3 {
+	color: #000000;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	margin: 0;
+}
+
+.projects-container > h3 {
+	margin-top: 60px;
+}
+
+.project-item {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+.project-item > a {
+	color: #595959;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	border-bottom: 1px dotted #a8a8a8;
+	text-decoration: none;
+	padding-right: 138px;
+}
+.technology {
+	color: #595959;
+	font-weight: 400;
+}
+
+.work-container {
+	width: 555px;
+}
+
+.work-container > h3 {
+	margin-top: 50px;
+}
+
+.companies-container > h4 {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-top: 14px;
+	margin-bottom: 10px;
+}
+
+.companies-container > h4 > span {
+	color: #ff6b08;
+}
+
+span.time-place {
+	color: #a8a8a8;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+span.slash {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.education-container {
+	margin-top: 55px;
+	margin-bottom: 105px;
+}
+
+.education-container > h4 {
+	color: #ff6b08;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-top: 14px;
+	margin-bottom: 10px;
+}
+
+.education-container > p {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+}
